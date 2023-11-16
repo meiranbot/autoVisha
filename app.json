@@ -1,9 +1,9 @@
 {
-    "name": "𝗩𝗶𝘀𝗵𝗮-𝗕𝗼𝘁",
+    "name": "PROFESSOR-BOT",
     "description": "The Telegram Autofilter Bot",
-    "logo": "https://telegra.ph/file/b62db4984c55435abb477.jpg",
+    "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
     "keywords": ["Telegram", "auto-filter", "MrMKN"],
-    "repository": "https://github.com/OMlinks/VishaBot",
+    "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
     "env": {
         "WEBHOOK": {
             "description": "True/False if your server is web support required? the value is True else False",
@@ -12,27 +12,22 @@
         },
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "value": "6602385443:AAHBCTgchRazbUY1pTCqQpLAh3U8LuUoCA0",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "28898931",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "51eb315488b86948fcce55738e6b5ffb",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-            "value": "-1001917688705",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": "5948112774",
             "required": true
         },
         "SHORT_API": {
@@ -45,12 +40,10 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "value": "",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "value": "-1001902074209",
             "required": true                              
         },
         "AUTH_CHANNEL": {
@@ -64,12 +57,11 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "<b>Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}</b>\n\n• ❰ @OM_links ❱ •",
+            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @MR_LINK_Z ❱ • ────➤\n┣ ▫️ @MRxSERIES\n┣ ▫️ @MalluMovie_Official\n╰─────── • ◆ • ───────➤",
             "required": false
         },
         "DATABASE_URL": {
             "description": "mongoDB URI.",
-            "value": "mongodb+srv://niwduf:KuWsUc0abFEy9Kif@cluster0.8mcpdjo.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
@@ -84,7 +76,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "OM_links",
+            "value": "MKN_BOTZ_DISCUSSION_GROUP",
             "required": false
         },
         "IMDB": {
@@ -104,7 +96,7 @@
         }, 
         "IMDB_DELET_TIME": {
             "description": "bot risult aouto delet time in second do to avoid group copyright issue. default is 300 ",
-            "value": "600",
+            "value": "300",
             "required": false  
         },
         "SINGLE_BUTTON": {
@@ -129,7 +121,7 @@
         },
         "WELCOM_PIC": {
             "description": "Welcome message pic (telegraph link)",
-            "value": "https://telegra.ph/file/b62db4984c55435abb477.jpg",
+            "value": "",
             "required": false
         },
         "WELCOM_TEXT": {
@@ -172,8 +164,3 @@
             {"url": "heroku/python"}
         ]      
 }
-
-
-
-
-
