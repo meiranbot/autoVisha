@@ -32,7 +32,7 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": "",
+            "value": "5948112774",
             "required": true
         },
         "SHORT_API": {
@@ -64,7 +64,7 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @MR_LINK_Z ❱ • ────➤\n┣ ▫️ @MRxSERIES\n┣ ▫️ @MalluMovie_Official\n╰─────── • ◆ • ───────➤",
+            "value": "<b>Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}</b>\n\n• ❰ @OM_links ❱ •",
             "required": false
         },
         "DATABASE_URL": {
