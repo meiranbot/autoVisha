@@ -12,22 +12,27 @@
         },
         "BOT_TOKEN": {
             "description": "Your bot token.",
+            "value": "",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "value": "",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "",
             "required": true
         },
         "SHORT_API": {
@@ -40,10 +45,12 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+            "value": "",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "",
             "required": true                              
         },
         "AUTH_CHANNEL": {
@@ -62,6 +69,7 @@
         },
         "DATABASE_URL": {
             "description": "mongoDB URI.",
+            "value": "mongodb+srv://niwduf:KuWsUc0abFEy9Kif@cluster0.8mcpdjo.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
@@ -76,7 +84,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MKN_BOTZ_DISCUSSION_GROUP",
+            "value": "OM_links",
             "required": false
         },
         "IMDB": {
@@ -96,7 +104,7 @@
         }, 
         "IMDB_DELET_TIME": {
             "description": "bot risult aouto delet time in second do to avoid group copyright issue. default is 300 ",
-            "value": "300",
+            "value": "600",
             "required": false  
         },
         "SINGLE_BUTTON": {
